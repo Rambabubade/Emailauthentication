@@ -10,7 +10,7 @@ const EmailAuth = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const baseURL = 'http://localhost:5000/api';
+  const baseURL = 'https://emailauthentication-fbzw7sadv-rambabubades-projects.vercel.app';
 
   const sendOtp = async () => {
     setLoading(true);
